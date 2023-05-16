@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class JogoDaForca {
     private final List<String> words = List.of("COMPUTADOR", "TELEFONE", "NOTEBOOK");
-    private String wordSelected = "";
-    private String lettersFounded = "";
+    private String wordSelected;
+    private String lettersFounded;
     private int errors = 0;
 
     public void start(){
